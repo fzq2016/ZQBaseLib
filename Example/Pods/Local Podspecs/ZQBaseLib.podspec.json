@@ -1,0 +1,22 @@
+{
+  "name": "ZQBaseLib",
+  "version": "0.1.0",
+  "summary": "A short description of ZQBaseLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fzq2016/ZQBaseLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fzq2016": "3029778489@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fzq2016/ZQBaseLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZQBaseLib/Classes/**/*"
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZQBaseLib_Example' do
+  pod 'ZQBaseLib', :path => '../'
+
+  target 'ZQBaseLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
