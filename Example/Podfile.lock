@@ -1,16 +1,3 @@
-PODS:
-  - ZQBaseLib (0.1.0)
-
-DEPENDENCIES:
-  - ZQBaseLib (from `../`)
-
-EXTERNAL SOURCES:
-  ZQBaseLib:
-    :path: "../"
-
-SPEC CHECKSUMS:
-  ZQBaseLib: 0a22c228a792bd3cef8614d986ca1b4aa32a587c
-
-PODFILE CHECKSUM: 8e03c0483c05da586cc95ac1de5d5fcc1b6ba7b0
+PODFILE CHECKSUM: 352bdae33bf42703ac6545f7188cadbbdb545454
 
 COCOAPODS: 1.2.1

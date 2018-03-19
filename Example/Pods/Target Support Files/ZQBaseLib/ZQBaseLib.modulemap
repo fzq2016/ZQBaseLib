@@ -1,6 +1,0 @@
-framework module ZQBaseLib {
-  umbrella header "ZQBaseLib-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,8 +1,12 @@
-source 'https://github.com/fzq2016/ZQBaseLib.git'
+#source 'https://github.com/fzq2016/ZQBaseLib.git'
+#source 'https://github.com/fzq2016/category.git'
+
 source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
 
 target 'ZQBaseLib_Example' do
+platform:ios,'8.0'
 
-pod 'ZQBaseLib'
+#pod 'ZQBaseLib', '~> 0.0.1'
+#pod 'category'
 
 end
