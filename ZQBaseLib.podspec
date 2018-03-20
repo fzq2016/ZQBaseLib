@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/fzq2016/ZQBaseLib.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/OC/**/*'
+  s.source_files = 'A/OC/**/*'
   
 #s.resource_bundles = {
 #  'ZQBaseLib' => ['ZQBaseLib/Assets/*.png']
