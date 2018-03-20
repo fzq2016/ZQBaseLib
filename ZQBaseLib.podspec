@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Lib/OC/**/*'
+  s.exclude_files = "Lib/OC/Exclude"
   
 #s.resource_bundles = {
 #  'ZQBaseLib' => ['ZQBaseLib/Assets/*.png']
