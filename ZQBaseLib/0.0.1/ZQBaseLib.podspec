@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Lib/OC/**/*'
+  s.exclude_files = "Lib/OC/Exclude"
   
 #s.resource_bundles = {
 #  'ZQBaseLib' => ['ZQBaseLib/Assets/*.png']
@@ -19,4 +20,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.requires_arc = true
 end
