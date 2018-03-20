@@ -1,0 +1,2 @@
+# ZQBaseLib
+Wrapper class library。

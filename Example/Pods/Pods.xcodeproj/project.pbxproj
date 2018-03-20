@@ -7,51 +7,325 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2801BEE992FF56DD13427C48946222F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D542B1614C37621DF9FD796558811C57 /* Pods-ZQBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B44751BC942AC88446E687D15B50F /* Pods-ZQBaseLib_Example-dummy.m */; };
+		0068FD04D13E8FE8A731AB1A6857764B /* UIImageView+ZQUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AA618DF84677CD21938A6489E76F65F3 /* UIImageView+ZQUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		016C05756AAE5333C8CAF61B394D6D8F /* NSDictionary+ZQPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE71EE838DD040294C549FAA5391F8 /* NSDictionary+ZQPropertyList.m */; };
+		0658240A24FA44D920B4E0F8155BEDE5 /* FZQTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5922089B9A3618ED986BFC7634660940 /* FZQTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C033CAB7C44EB2F1088C179C0ADF8DB /* FZQNavController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F108900A5C4D0B80D8C7FC668B5115 /* FZQNavController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D077B56CBDE1632116E485DBA761982 /* NSMutableURLRequest+ZQUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = A460E3F25CFC7FE3ECB63A97AE8E5E30 /* NSMutableURLRequest+ZQUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120487DC2FA066BC7DB889710A6A1A82 /* GlobeConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 144B131FA92FE0F1F8052EF7F2DD142E /* GlobeConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		169AF2E42B3E4EF243F8B3251054195A /* UIImage+ZQStretchable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9CD2D7D64741EB7D25362F921EF517 /* UIImage+ZQStretchable.m */; };
+		1C039C0D81DE80D91EFD2C889CCEB4A6 /* ZQGuideTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0E0142DC28D5E979578E895E76D561 /* ZQGuideTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209E076A0D2C35BD316B4B45F2C63929 /* ZQSaveTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D8BE562EA4A2720058387A9F92F240 /* ZQSaveTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2142043C0DDAE8204FD3670C195EA8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		23E1662A09FB4072DB74F4F00B8BEF26 /* EnumHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA2F64DCA126EC8A88FDE4BA9D04BC9 /* EnumHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FCBCC9256B9ED92345C49A4985B662 /* UIView+ZQView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5268B0875AA232BFFD2CFCCBE376635 /* UIView+ZQView.m */; };
+		275AAF56C8F0EDBBC693ACA8390EA4E2 /* FZQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F1CB82B3A854FC538C19E531E180A0 /* FZQTabBarController.m */; };
+		2B518E8BBE8CB0BCC1973D6B8357B9AB /* FZQTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D1C4B76F84ECFC44E0604246B3196D /* FZQTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC0D9DD3A17EF1528F41DDB2F11AB62 /* FZQOwl.m in Sources */ = {isa = PBXBuildFile; fileRef = 21504084F683AB8B6DEAFBD77314363B /* FZQOwl.m */; };
+		30F38C27ECFF7BEFC5E0F718F23228EF /* EnvironmentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6FAAFA9EC4CE7132B963058F27F158 /* EnvironmentHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4160039998C93010721946EBA9A825B8 /* NSObject+ZQInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA111BE52D768BC61489A3C9CB2795B /* NSObject+ZQInvocation.m */; };
+		4374DEF8C045AB590D318D51CF485BF0 /* ZQSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C106FA0BE9D13DDA635C86E64183F1 /* ZQSaveTool.m */; };
+		44EDE15AA78DF5C1DB55A3CE93952FE7 /* ZQNewFeatureVC.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3707F3E378C4DB0CA8E786334EA261 /* ZQNewFeatureVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		454AA50CB4DFE87259D103333FD63C4D /* UIColor+ZQUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5ADED28B7ADFAD0C3E1531F4594A04 /* UIColor+ZQUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48030E4222032BFE998535AD86D60156 /* UIView+ZQFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDF786345DBA071DCECF4DD4004E181 /* UIView+ZQFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5C6E737B59598A474AC4117785BFAE /* NSString+ZQSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 992F5E9EACED3C52DAEC0144CEFC4E0D /* NSString+ZQSubstring.m */; };
+		53C7CEC66380DEA3B65DF208FF4B5A2D /* ZQLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = A66A90975295A089AC61ADEFB476C3B8 /* ZQLocalization.m */; };
+		55D7F0047C7AB52297147EA05BCF6047 /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D14FBF9E16ECBADAE48ABC9F7633D37 /* RSACryptor.m */; };
+		56228B71B364F9374CE5FACA2482FA51 /* UIView+ZQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD69F9244CDAECA9529DF415BA5A2D4 /* UIView+ZQFrame.m */; };
+		57D5FC5B2418549A90F49846C0232AED /* FZQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E572FDDE1F0777E45C11C66B3A03F13C /* FZQTabBar.m */; };
+		5BC920911DF6F4969003E2DF6C07CAF9 /* UIViewController+ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64881D55A2F3DCB6342907E6D35CD90A /* UIViewController+ZQViewController.m */; };
+		5F5312C26B5AD787E7A32F3BF2CE1F7A /* UITextField+ZQPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 86652F74748DA2B7497E35BC0B164C08 /* UITextField+ZQPlaceholderColor.m */; };
+		65A4B4A5C8419D6777FE7A4993182D79 /* NSString+ZQSubstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 744F861EF72B61E0D4ABE400B3F1A131 /* NSString+ZQSubstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695216AC39A4634AA8E2A0CF9032802C /* RSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C3BD4BDA00F7E225AD35DBFD5EFD05 /* RSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B45E7C199C8CDE44C7DC8E2CFC382D2 /* NSString+ZQHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1762773820CC60AF44675C4A698DEC /* NSString+ZQHash.m */; };
+		73852E08758D3A7D5677F1843697F11B /* UIImageView+ZQUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4BBFD1B7EB4ABE19847E453EF2820 /* UIImageView+ZQUtil.m */; };
+		74468995EEC414AB1756723554CA7237 /* FZQNewFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = A827DD5742D057D5D7EF732BE8FEB0E1 /* FZQNewFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7567CEACE8C372E58D77BAF73EB549D4 /* UIImage+ZQOriginal.h in Headers */ = {isa = PBXBuildFile; fileRef = 36166286A7B66A054F5BBE55B48F39C4 /* UIImage+ZQOriginal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C20977BA027B6E11FC633914893B0A9 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE9084B27DEDD067DE65CC04B857165 /* Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803DE522ACD5A5D8FCEFD61F2DF6A082 /* FZQNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96DD40758C6934B5FEAF699E45A4703 /* FZQNavController.m */; };
+		81D1C15DFC332DE60876B2847CF7B77C /* NetworkHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D888F510B7E2A44DAF6C02BF6FE9E53C /* NetworkHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827CB6B5036366D5CE978763FA7F9AC2 /* UIDevice--Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = E48F12CBD1B3F654457216C8DDE95E19 /* UIDevice--Hardware.m */; };
+		840E62067B51A1FC283BE541A3EA00DE /* UIBarButtonItem+ZQItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA5146F26E36C975B0FFE81DCA9CEB4 /* UIBarButtonItem+ZQItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DAC88C1179DCE93F2B2498E4155E5BF /* ZQLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D65577BF7662EAF2706D9413677E3E /* ZQLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4D1AE59EAD887FD0F39D6D473F494E /* NSString+ZQMIMEType.h in Headers */ = {isa = PBXBuildFile; fileRef = 914E77B0567D40FE8B8C925A3F7AAD1A /* NSString+ZQMIMEType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D158EDAEE81973620DA7DA72132C1A /* UIBarButtonItem+ZQItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D4005FD768687B70CC7DA1D5256752F0 /* UIBarButtonItem+ZQItem.m */; };
+		94CF819F047E07EAEBDF95F6982E8F35 /* NSString+ZQHash.h in Headers */ = {isa = PBXBuildFile; fileRef = BD77D65F3FBCA228FA166EA06B9295ED /* NSString+ZQHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ADBF581869F3D4AD3CC47227A30A850 /* NSDictionary+ZQPropertyList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A827B36364FCE147E6404B12760527F /* NSDictionary+ZQPropertyList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1CE7E22CA5911AACA481ED8B307807 /* UIRelatedHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F41F8FA6F0BE87F1CDB0DBC5E8266D1 /* UIRelatedHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E285DFA8DA8E53303E437BD80864550 /* EncryptionTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 180BE612E94BB8CCFE2BF3666362EF0D /* EncryptionTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A042BA79FD5F9615F1F78E631C006FA9 /* UIScrollView+ZQContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CE7CCF01A39711674C0C47444ECEB /* UIScrollView+ZQContent.m */; };
+		A38FA924012652757A4037F808D0E3F7 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC58582B107F70430C1385979193179 /* EncryptionTools.m */; };
+		A62F255FC48CBC38052F5437B04F7A40 /* UITextField+ZQPlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 040F1EB02380A8491CC2441723BD6BF9 /* UITextField+ZQPlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82301150B96913DA44F7A50D465A6CD /* UIView+ZQViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06293F71F4BD242D3FB6AEBABF2C1F70 /* UIView+ZQViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BD9F979145E358D85D3F40C536BB2B /* UIDevice--Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 425B8E1E71986DD7470B94AF4DDBF10F /* UIDevice--Hardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9DD8FD27C1E3123A29DCC5FFF3CF091 /* UITableViewCell+ZQCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B155C0BF66301683033EE1FFF20D0CD9 /* UITableViewCell+ZQCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB72D42A4BC4930083E5FA83C470AD4C /* FZQNewFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5397BFBADE4217F9B4DE8DC111D9ECC2 /* FZQNewFeature.m */; };
+		AC668B80887955730E6A55790E9D683C /* UIView+ZQView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8F4E18EF6847318E1432B41A127F3E /* UIView+ZQView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD257F841AA18C13C9B42EB95E33E007 /* UIButton+ZQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 312619E07B786E205C7B37B1BCD646CD /* UIButton+ZQBlock.m */; };
+		B3AC764B686EAD7C9173F322C9D4B1BB /* ZQNewFeatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23107B0009A3651B9CC3B89B0F53FBE9 /* ZQNewFeatureVC.m */; };
+		C9F2776DB34751E2D0D3073918A0BB6B /* UITableViewCell+ZQCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C79B490D1DA15088F3DE68068BA24081 /* UITableViewCell+ZQCell.m */; };
+		CA372BF28B76139721186DE787FDD5A0 /* NSString+ZQFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC20D5C0037C4799796BB6E697C442 /* NSString+ZQFileSize.m */; };
+		CAE838A538DC75E5465760B6F31155C8 /* NSObject+ZQInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDB41D62609F27A4D6790695E23815B /* NSObject+ZQInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB44FE9715836350008A91D6EABE39FC /* ZQBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA40312F39F325B9BFBF3C95264D024 /* ZQBaseLib-dummy.m */; };
+		CE79F888AAE8589F086ECD9FFD883CC9 /* UIView+ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB95C4BA9AD92E5EDBCD74E3661F314F /* UIView+ZQViewController.m */; };
+		CE859B3DF7FC2A521BB7192186247B63 /* UIImage+ZQOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE8891E7164607D31AC40F3CFFAC46 /* UIImage+ZQOriginal.m */; };
+		CECFAFA760B195E63119A620B2FF64A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D62AB8AC490751A394EDF5C78DD8AB02 /* UIImage+ZQAntialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5BB58E3469FD0F60536F94D1882F25 /* UIImage+ZQAntialias.m */; };
+		D6EC0779DFB67617795AEDAB79A39DC8 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E5AD53DB93A525148150CF19B2E1A0 /* GlobeConst.m */; };
+		D89476938DEF578986296798CCA166AE /* NSString+ZQMIMEType.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD14B45EE37331BE7834B53DD7D8000 /* NSString+ZQMIMEType.m */; };
+		D89C7EAB7DADE173EAA3DF17D700E3F8 /* UIScrollView+ZQContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6C59962AE6BD2E088661247018D78D /* UIScrollView+ZQContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D934D1FD5DE5FDBC2127E3A003738F34 /* UIViewController+ZQViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E874341969DE6502A9DF62E2534DAA /* UIViewController+ZQViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC386755C947ED746DEBFB2612B3982 /* UIColor+ZQHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8ADE67BC27ADE853026283ACAF5C6B /* UIColor+ZQHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC2ECCB1A36A4135893643B173F80A7 /* Pods-ZQBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B44751BC942AC88446E687D15B50F /* Pods-ZQBaseLib_Example-dummy.m */; };
+		E4784BEF16AA9FCF06C434A213CE58B2 /* NotificationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8496E25B6F9445EE23F0B98FD516821F /* NotificationHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F77EA64DE31C09FA16288CA51E6338 /* Foundation+ZQLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 45709B29FBA96A333E7B7D65B0A6D31B /* Foundation+ZQLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E759D43CA662075EF8F16888C6C5D6CB /* UIImage+ZQStretchable.h in Headers */ = {isa = PBXBuildFile; fileRef = B83A3DF736F28D78963F99D2A86F05DD /* UIImage+ZQStretchable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC58CB3F23B7F15557C4947B507845C2 /* UIColor+ZQUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A277315EB84E217CDB8D3688BC26D /* UIColor+ZQUtil.m */; };
+		EDCB4D1344F61BF02E4AF2BBCCBCECB0 /* ZQGuideTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A735B82637E50FBB55DE283049CC4FFC /* ZQGuideTool.m */; };
+		EF51DFB88365380D6C25770854F15902 /* UIButton+ZQBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944367C92AC0158A8A3746DB04BFE2F /* UIButton+ZQBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B6634A3CB66C8441C1A06EF1A42CD7 /* NSString+ZQFileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 301B9BE0BE81E2C2CB4E91385715F8D2 /* NSString+ZQFileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F46BD9BD7987593CB569719386D2DF94 /* UIColor+ZQHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC76EB0E98DEE3A9489E580F59DFC2 /* UIColor+ZQHex.m */; };
+		F4E98754C445731D2AB193EC28B31867 /* FZQOwl.xib in Sources */ = {isa = PBXBuildFile; fileRef = F6BA6D3C99E5FAA1852A3E707A180696 /* FZQOwl.xib */; };
+		F88041D2E7D3D6F34290AF290E05C2B5 /* NSMutableURLRequest+ZQUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0611E175CD70A822EF6502926C9CBB /* NSMutableURLRequest+ZQUpload.m */; };
+		FD1EC0FD2BD37741969F076BDAB4BEA6 /* Foundation+ZQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E692F1A7DE11E41E519B93CC5F82FE08 /* Foundation+ZQLog.m */; };
+		FD6587C941B4D8327480AEE0A66FBE53 /* UIImage+ZQAntialias.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB92292EE32D982C3522EEFD6A9FBB2 /* UIImage+ZQAntialias.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDFE553E695611BDD000C5C93DD758F5 /* FZQOwl.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC9E6C14DD345B1311FFD1C8FC9CD9F /* FZQOwl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		70AD782AC21FBFC1ED5F5ADB538B2BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD35928C792F0A3900A2FBA5F5CA95E;
+			remoteInfo = ZQBaseLib;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		040F1EB02380A8491CC2441723BD6BF9 /* UITextField+ZQPlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+ZQPlaceholderColor.h"; path = "A/OC/Categories/UITextField/UITextField+ZQPlaceholderColor.h"; sourceTree = "<group>"; };
+		06293F71F4BD242D3FB6AEBABF2C1F70 /* UIView+ZQViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZQViewController.h"; path = "A/OC/Categories/UIView/UIView+ZQViewController.h"; sourceTree = "<group>"; };
+		0B0611E175CD70A822EF6502926C9CBB /* NSMutableURLRequest+ZQUpload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+ZQUpload.m"; path = "A/OC/Categories/NSMutableURLRequest/NSMutableURLRequest+ZQUpload.m"; sourceTree = "<group>"; };
+		11F108900A5C4D0B80D8C7FC668B5115 /* FZQNavController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZQNavController.h; path = "A/OC/Packages/framework（框架类）/Main(主要)/Controller/FZQNavController/FZQNavController.h"; sourceTree = "<group>"; };
+		144B131FA92FE0F1F8052EF7F2DD142E /* GlobeConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlobeConst.h; path = A/OC/Headers/GlobeConst.h; sourceTree = "<group>"; };
+		17C3BD4BDA00F7E225AD35DBFD5EFD05 /* RSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSACryptor.h; path = "A/OC/Packages/Tool/加密工具类/RSACryptor.h"; sourceTree = "<group>"; };
+		180BE612E94BB8CCFE2BF3666362EF0D /* EncryptionTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncryptionTools.h; path = "A/OC/Packages/Tool/加密工具类/EncryptionTools.h"; sourceTree = "<group>"; };
+		19E874341969DE6502A9DF62E2534DAA /* UIViewController+ZQViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ZQViewController.h"; path = "A/OC/Categories/UIViewController/UIViewController+ZQViewController.h"; sourceTree = "<group>"; };
+		1B6C59962AE6BD2E088661247018D78D /* UIScrollView+ZQContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ZQContent.h"; path = "A/OC/Categories/UIScrollowView/UIScrollView+ZQContent.h"; sourceTree = "<group>"; };
+		21504084F683AB8B6DEAFBD77314363B /* FZQOwl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZQOwl.m; path = A/OC/SpecialUI/Owl/FZQOwl/FZQOwl.m; sourceTree = "<group>"; };
+		23107B0009A3651B9CC3B89B0F53FBE9 /* ZQNewFeatureVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQNewFeatureVC.m; path = "A/OC/Packages/NewFeature(新特性界面)/Controller/ZQNewFeatureVC.m"; sourceTree = "<group>"; };
 		246B44751BC942AC88446E687D15B50F /* Pods-ZQBaseLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQBaseLib_Example-dummy.m"; sourceTree = "<group>"; };
-		53F1653DADB77752DF6E95CB2C18BC72 /* libPods-ZQBaseLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZQBaseLib_Example.a"; path = "libPods-ZQBaseLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D65577BF7662EAF2706D9413677E3E /* ZQLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQLocalization.h; path = "A/OC/Packages/Localization(国际化)/ZQLocalization.h"; sourceTree = "<group>"; };
+		2A827B36364FCE147E6404B12760527F /* NSDictionary+ZQPropertyList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ZQPropertyList.h"; path = "A/OC/Categories/NSDictionary/NSDictionary+ZQPropertyList.h"; sourceTree = "<group>"; };
+		2FA111BE52D768BC61489A3C9CB2795B /* NSObject+ZQInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZQInvocation.m"; path = "A/OC/Categories/NSObject/NSObject+ZQInvocation.m"; sourceTree = "<group>"; };
+		301B9BE0BE81E2C2CB4E91385715F8D2 /* NSString+ZQFileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZQFileSize.h"; path = "A/OC/Categories/NSString/NSString+ZQFileSize.h"; sourceTree = "<group>"; };
+		312619E07B786E205C7B37B1BCD646CD /* UIButton+ZQBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ZQBlock.m"; path = "A/OC/Categories/UIButton/UIButton+ZQBlock.m"; sourceTree = "<group>"; };
+		36166286A7B66A054F5BBE55B48F39C4 /* UIImage+ZQOriginal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZQOriginal.h"; path = "A/OC/Categories/UIImage/UIImage+ZQOriginal.h"; sourceTree = "<group>"; };
+		38D8BE562EA4A2720058387A9F92F240 /* ZQSaveTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQSaveTool.h; path = "A/OC/Packages/Tool/存储工具类/ZQSaveTool.h"; sourceTree = "<group>"; };
+		39FC20D5C0037C4799796BB6E697C442 /* NSString+ZQFileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZQFileSize.m"; path = "A/OC/Categories/NSString/NSString+ZQFileSize.m"; sourceTree = "<group>"; };
+		3A6FAAFA9EC4CE7132B963058F27F158 /* EnvironmentHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnvironmentHeader.h; path = A/OC/Headers/EnvironmentHeader.h; sourceTree = "<group>"; };
+		3CA40312F39F325B9BFBF3C95264D024 /* ZQBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZQBaseLib-dummy.m"; sourceTree = "<group>"; };
+		3EB92292EE32D982C3522EEFD6A9FBB2 /* UIImage+ZQAntialias.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZQAntialias.h"; path = "A/OC/Categories/UIImage/UIImage+ZQAntialias.h"; sourceTree = "<group>"; };
+		3FA5146F26E36C975B0FFE81DCA9CEB4 /* UIBarButtonItem+ZQItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+ZQItem.h"; path = "A/OC/Categories/UIBarButton/UIBarButtonItem+ZQItem.h"; sourceTree = "<group>"; };
+		425B8E1E71986DD7470B94AF4DDBF10F /* UIDevice--Hardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice--Hardware.h"; path = "A/OC/Categories/UIDevice/UIDevice--Hardware.h"; sourceTree = "<group>"; };
+		45709B29FBA96A333E7B7D65B0A6D31B /* Foundation+ZQLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Foundation+ZQLog.h"; path = "A/OC/Categories/Foundation/Foundation+ZQLog.h"; sourceTree = "<group>"; };
+		4944367C92AC0158A8A3746DB04BFE2F /* UIButton+ZQBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+ZQBlock.h"; path = "A/OC/Categories/UIButton/UIButton+ZQBlock.h"; sourceTree = "<group>"; };
+		4D14FBF9E16ECBADAE48ABC9F7633D37 /* RSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSACryptor.m; path = "A/OC/Packages/Tool/加密工具类/RSACryptor.m"; sourceTree = "<group>"; };
+		4D6CD4EDF88269E44CC800DBEC25A8C0 /* libPods-ZQBaseLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZQBaseLib_Example.a"; path = "libPods-ZQBaseLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDB41D62609F27A4D6790695E23815B /* NSObject+ZQInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZQInvocation.h"; path = "A/OC/Categories/NSObject/NSObject+ZQInvocation.h"; sourceTree = "<group>"; };
+		4E8F4E18EF6847318E1432B41A127F3E /* UIView+ZQView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZQView.h"; path = "A/OC/Categories/UIView/UIView+ZQView.h"; sourceTree = "<group>"; };
+		5397BFBADE4217F9B4DE8DC111D9ECC2 /* FZQNewFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZQNewFeature.m; path = "A/OC/Packages/NewFeature(新特性界面)/Model/FZQNewFeature.m"; sourceTree = "<group>"; };
+		5922089B9A3618ED986BFC7634660940 /* FZQTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZQTabBar.h; path = "A/OC/Packages/framework（框架类）/Main(主要)/View/FZQTabBar/FZQTabBar.h"; sourceTree = "<group>"; };
+		59E5AD53DB93A525148150CF19B2E1A0 /* GlobeConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobeConst.m; path = A/OC/Headers/GlobeConst.m; sourceTree = "<group>"; };
+		5BAE8891E7164607D31AC40F3CFFAC46 /* UIImage+ZQOriginal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZQOriginal.m"; path = "A/OC/Categories/UIImage/UIImage+ZQOriginal.m"; sourceTree = "<group>"; };
+		5BDF786345DBA071DCECF4DD4004E181 /* UIView+ZQFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZQFrame.h"; path = "A/OC/Categories/UIView/UIView+ZQFrame.h"; sourceTree = "<group>"; };
+		5F0E0142DC28D5E979578E895E76D561 /* ZQGuideTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQGuideTool.h; path = "A/OC/Packages/Tool/引导工具类/ZQGuideTool.h"; sourceTree = "<group>"; };
+		64881D55A2F3DCB6342907E6D35CD90A /* UIViewController+ZQViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ZQViewController.m"; path = "A/OC/Categories/UIViewController/UIViewController+ZQViewController.m"; sourceTree = "<group>"; };
+		64D1C4B76F84ECFC44E0604246B3196D /* FZQTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZQTabBarController.h; path = "A/OC/Packages/framework（框架类）/Main(主要)/Controller/FZQTabBarController/FZQTabBarController.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		680925D429C07E1F591ACE2B66F176B4 /* libZQBaseLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZQBaseLib.a; path = libZQBaseLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8ADE67BC27ADE853026283ACAF5C6B /* UIColor+ZQHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ZQHex.h"; path = "A/OC/Categories/UIColor/UIColor+ZQHex.h"; sourceTree = "<group>"; };
+		6F9CD2D7D64741EB7D25362F921EF517 /* UIImage+ZQStretchable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZQStretchable.m"; path = "A/OC/Categories/UIImage/UIImage+ZQStretchable.m"; sourceTree = "<group>"; };
 		7001A1F9DA720E7992C723011B895B99 /* Pods-ZQBaseLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQBaseLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		744F861EF72B61E0D4ABE400B3F1A131 /* NSString+ZQSubstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZQSubstring.h"; path = "A/OC/Categories/NSString/NSString+ZQSubstring.h"; sourceTree = "<group>"; };
 		7705C1D0A6FB1D7B05C8E53EEC627D28 /* Pods-ZQBaseLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZQBaseLib_Example-resources.sh"; sourceTree = "<group>"; };
+		7A5BB58E3469FD0F60536F94D1882F25 /* UIImage+ZQAntialias.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZQAntialias.m"; path = "A/OC/Categories/UIImage/UIImage+ZQAntialias.m"; sourceTree = "<group>"; };
+		7F41F8FA6F0BE87F1CDB0DBC5E8266D1 /* UIRelatedHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIRelatedHeader.h; path = A/OC/Headers/UIRelatedHeader.h; sourceTree = "<group>"; };
+		8496E25B6F9445EE23F0B98FD516821F /* NotificationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationHeader.h; path = A/OC/Headers/NotificationHeader.h; sourceTree = "<group>"; };
+		86652F74748DA2B7497E35BC0B164C08 /* UITextField+ZQPlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ZQPlaceholderColor.m"; path = "A/OC/Categories/UITextField/UITextField+ZQPlaceholderColor.m"; sourceTree = "<group>"; };
+		8A4A277315EB84E217CDB8D3688BC26D /* UIColor+ZQUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZQUtil.m"; path = "A/OC/Categories/UIColor/UIColor+ZQUtil.m"; sourceTree = "<group>"; };
+		8ACC76EB0E98DEE3A9489E580F59DFC2 /* UIColor+ZQHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZQHex.m"; path = "A/OC/Categories/UIColor/UIColor+ZQHex.m"; sourceTree = "<group>"; };
+		8DFE71EE838DD040294C549FAA5391F8 /* NSDictionary+ZQPropertyList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ZQPropertyList.m"; path = "A/OC/Categories/NSDictionary/NSDictionary+ZQPropertyList.m"; sourceTree = "<group>"; };
+		914E77B0567D40FE8B8C925A3F7AAD1A /* NSString+ZQMIMEType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZQMIMEType.h"; path = "A/OC/Categories/NSString/NSString+ZQMIMEType.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		962D8055EDC4299C97828F86D2B03E73 /* Pods-ZQBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		992F5E9EACED3C52DAEC0144CEFC4E0D /* NSString+ZQSubstring.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZQSubstring.m"; path = "A/OC/Categories/NSString/NSString+ZQSubstring.m"; sourceTree = "<group>"; };
+		9AA2F64DCA126EC8A88FDE4BA9D04BC9 /* EnumHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnumHeader.h; path = A/OC/Headers/EnumHeader.h; sourceTree = "<group>"; };
+		A460E3F25CFC7FE3ECB63A97AE8E5E30 /* NSMutableURLRequest+ZQUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+ZQUpload.h"; path = "A/OC/Categories/NSMutableURLRequest/NSMutableURLRequest+ZQUpload.h"; sourceTree = "<group>"; };
+		A66A90975295A089AC61ADEFB476C3B8 /* ZQLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQLocalization.m; path = "A/OC/Packages/Localization(国际化)/ZQLocalization.m"; sourceTree = "<group>"; };
+		A735B82637E50FBB55DE283049CC4FFC /* ZQGuideTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQGuideTool.m; path = "A/OC/Packages/Tool/引导工具类/ZQGuideTool.m"; sourceTree = "<group>"; };
+		A827DD5742D057D5D7EF732BE8FEB0E1 /* FZQNewFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZQNewFeature.h; path = "A/OC/Packages/NewFeature(新特性界面)/Model/FZQNewFeature.h"; sourceTree = "<group>"; };
+		AA618DF84677CD21938A6489E76F65F3 /* UIImageView+ZQUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+ZQUtil.h"; path = "A/OC/Categories/UIImageView/UIImageView+ZQUtil.h"; sourceTree = "<group>"; };
+		ADD14B45EE37331BE7834B53DD7D8000 /* NSString+ZQMIMEType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZQMIMEType.m"; path = "A/OC/Categories/NSString/NSString+ZQMIMEType.m"; sourceTree = "<group>"; };
+		B0D7DFA657A90CBD6E89ABDC143DDBD3 /* ZQBaseLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQBaseLib.xcconfig; sourceTree = "<group>"; };
+		B155C0BF66301683033EE1FFF20D0CD9 /* UITableViewCell+ZQCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+ZQCell.h"; path = "A/OC/Categories/UITableViewCell/UITableViewCell+ZQCell.h"; sourceTree = "<group>"; };
+		B6F1CB82B3A854FC538C19E531E180A0 /* FZQTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZQTabBarController.m; path = "A/OC/Packages/framework（框架类）/Main(主要)/Controller/FZQTabBarController/FZQTabBarController.m"; sourceTree = "<group>"; };
+		B72CE7CCF01A39711674C0C47444ECEB /* UIScrollView+ZQContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ZQContent.m"; path = "A/OC/Categories/UIScrollowView/UIScrollView+ZQContent.m"; sourceTree = "<group>"; };
+		B83A3DF736F28D78963F99D2A86F05DD /* UIImage+ZQStretchable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZQStretchable.h"; path = "A/OC/Categories/UIImage/UIImage+ZQStretchable.h"; sourceTree = "<group>"; };
+		BD77D65F3FBCA228FA166EA06B9295ED /* NSString+ZQHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZQHash.h"; path = "A/OC/Categories/Encryption/NSString+ZQHash.h"; sourceTree = "<group>"; };
+		BDC58582B107F70430C1385979193179 /* EncryptionTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncryptionTools.m; path = "A/OC/Packages/Tool/加密工具类/EncryptionTools.m"; sourceTree = "<group>"; };
+		BF1762773820CC60AF44675C4A698DEC /* NSString+ZQHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZQHash.m"; path = "A/OC/Categories/Encryption/NSString+ZQHash.m"; sourceTree = "<group>"; };
+		C79B490D1DA15088F3DE68068BA24081 /* UITableViewCell+ZQCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+ZQCell.m"; path = "A/OC/Categories/UITableViewCell/UITableViewCell+ZQCell.m"; sourceTree = "<group>"; };
+		CD3707F3E378C4DB0CA8E786334EA261 /* ZQNewFeatureVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQNewFeatureVC.h; path = "A/OC/Packages/NewFeature(新特性界面)/Controller/ZQNewFeatureVC.h"; sourceTree = "<group>"; };
+		CEC9E6C14DD345B1311FFD1C8FC9CD9F /* FZQOwl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZQOwl.h; path = A/OC/SpecialUI/Owl/FZQOwl/FZQOwl.h; sourceTree = "<group>"; };
 		D04BB3B5A331E9F4E15E130E79EAED76 /* Pods-ZQBaseLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQBaseLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D10A251808D93355476FE6D925136018 /* ZQBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQBaseLib-prefix.pch"; sourceTree = "<group>"; };
+		D4005FD768687B70CC7DA1D5256752F0 /* UIBarButtonItem+ZQItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+ZQItem.m"; path = "A/OC/Categories/UIBarButton/UIBarButtonItem+ZQItem.m"; sourceTree = "<group>"; };
+		D5268B0875AA232BFFD2CFCCBE376635 /* UIView+ZQView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZQView.m"; path = "A/OC/Categories/UIView/UIView+ZQView.m"; sourceTree = "<group>"; };
+		D888F510B7E2A44DAF6C02BF6FE9E53C /* NetworkHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkHeader.h; path = A/OC/Headers/NetworkHeader.h; sourceTree = "<group>"; };
 		D9154C67DB5F1FB0F2F91BA822BBC982 /* Pods-ZQBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D96DD40758C6934B5FEAF699E45A4703 /* FZQNavController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZQNavController.m; path = "A/OC/Packages/framework（框架类）/Main(主要)/Controller/FZQNavController/FZQNavController.m"; sourceTree = "<group>"; };
+		D9C106FA0BE9D13DDA635C86E64183F1 /* ZQSaveTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQSaveTool.m; path = "A/OC/Packages/Tool/存储工具类/ZQSaveTool.m"; sourceTree = "<group>"; };
+		DBE9084B27DEDD067DE65CC04B857165 /* Singleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = A/OC/Headers/Singleton.h; sourceTree = "<group>"; };
+		E48F12CBD1B3F654457216C8DDE95E19 /* UIDevice--Hardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice--Hardware.m"; path = "A/OC/Categories/UIDevice/UIDevice--Hardware.m"; sourceTree = "<group>"; };
+		E572FDDE1F0777E45C11C66B3A03F13C /* FZQTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZQTabBar.m; path = "A/OC/Packages/framework（框架类）/Main(主要)/View/FZQTabBar/FZQTabBar.m"; sourceTree = "<group>"; };
+		E692F1A7DE11E41E519B93CC5F82FE08 /* Foundation+ZQLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Foundation+ZQLog.m"; path = "A/OC/Categories/Foundation/Foundation+ZQLog.m"; sourceTree = "<group>"; };
 		ED212ECB6D92BB9B14F72BA8FB51C336 /* Pods-ZQBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZQBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EF5ADED28B7ADFAD0C3E1531F4594A04 /* UIColor+ZQUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ZQUtil.h"; path = "A/OC/Categories/UIColor/UIColor+ZQUtil.h"; sourceTree = "<group>"; };
+		EFD69F9244CDAECA9529DF415BA5A2D4 /* UIView+ZQFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZQFrame.m"; path = "A/OC/Categories/UIView/UIView+ZQFrame.m"; sourceTree = "<group>"; };
+		F6A4BBFD1B7EB4ABE19847E453EF2820 /* UIImageView+ZQUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+ZQUtil.m"; path = "A/OC/Categories/UIImageView/UIImageView+ZQUtil.m"; sourceTree = "<group>"; };
+		F6BA6D3C99E5FAA1852A3E707A180696 /* FZQOwl.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FZQOwl.xib; path = A/OC/SpecialUI/Owl/FZQOwl/FZQOwl.xib; sourceTree = "<group>"; };
+		FB95C4BA9AD92E5EDBCD74E3661F314F /* UIView+ZQViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZQViewController.m"; path = "A/OC/Categories/UIView/UIView+ZQViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CAD131C4E25B0C5B57FE399A726AC927 /* Frameworks */ = {
+		C04AAC700BD0E1B36356ED65D23340C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2801BEE992FF56DD13427C48946222F4 /* Foundation.framework in Frameworks */,
+				2142043C0DDAE8204FD3670C195EA8B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10D29F09BC3DA8D8622BED0BE9D6970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFAFA760B195E63119A620B2FF64A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1695B09069C819DC224EB437FEB6FBC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7DFA657A90CBD6E89ABDC143DDBD3 /* ZQBaseLib.xcconfig */,
+				3CA40312F39F325B9BFBF3C95264D024 /* ZQBaseLib-dummy.m */,
+				D10A251808D93355476FE6D925136018 /* ZQBaseLib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZQBaseLib";
+			sourceTree = "<group>";
+		};
+		5E6D527215E433D7616EE048F2F8B862 /* ZQBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				180BE612E94BB8CCFE2BF3666362EF0D /* EncryptionTools.h */,
+				BDC58582B107F70430C1385979193179 /* EncryptionTools.m */,
+				9AA2F64DCA126EC8A88FDE4BA9D04BC9 /* EnumHeader.h */,
+				3A6FAAFA9EC4CE7132B963058F27F158 /* EnvironmentHeader.h */,
+				45709B29FBA96A333E7B7D65B0A6D31B /* Foundation+ZQLog.h */,
+				E692F1A7DE11E41E519B93CC5F82FE08 /* Foundation+ZQLog.m */,
+				11F108900A5C4D0B80D8C7FC668B5115 /* FZQNavController.h */,
+				D96DD40758C6934B5FEAF699E45A4703 /* FZQNavController.m */,
+				A827DD5742D057D5D7EF732BE8FEB0E1 /* FZQNewFeature.h */,
+				5397BFBADE4217F9B4DE8DC111D9ECC2 /* FZQNewFeature.m */,
+				CEC9E6C14DD345B1311FFD1C8FC9CD9F /* FZQOwl.h */,
+				21504084F683AB8B6DEAFBD77314363B /* FZQOwl.m */,
+				F6BA6D3C99E5FAA1852A3E707A180696 /* FZQOwl.xib */,
+				5922089B9A3618ED986BFC7634660940 /* FZQTabBar.h */,
+				E572FDDE1F0777E45C11C66B3A03F13C /* FZQTabBar.m */,
+				64D1C4B76F84ECFC44E0604246B3196D /* FZQTabBarController.h */,
+				B6F1CB82B3A854FC538C19E531E180A0 /* FZQTabBarController.m */,
+				144B131FA92FE0F1F8052EF7F2DD142E /* GlobeConst.h */,
+				59E5AD53DB93A525148150CF19B2E1A0 /* GlobeConst.m */,
+				D888F510B7E2A44DAF6C02BF6FE9E53C /* NetworkHeader.h */,
+				8496E25B6F9445EE23F0B98FD516821F /* NotificationHeader.h */,
+				2A827B36364FCE147E6404B12760527F /* NSDictionary+ZQPropertyList.h */,
+				8DFE71EE838DD040294C549FAA5391F8 /* NSDictionary+ZQPropertyList.m */,
+				A460E3F25CFC7FE3ECB63A97AE8E5E30 /* NSMutableURLRequest+ZQUpload.h */,
+				0B0611E175CD70A822EF6502926C9CBB /* NSMutableURLRequest+ZQUpload.m */,
+				4DDB41D62609F27A4D6790695E23815B /* NSObject+ZQInvocation.h */,
+				2FA111BE52D768BC61489A3C9CB2795B /* NSObject+ZQInvocation.m */,
+				301B9BE0BE81E2C2CB4E91385715F8D2 /* NSString+ZQFileSize.h */,
+				39FC20D5C0037C4799796BB6E697C442 /* NSString+ZQFileSize.m */,
+				BD77D65F3FBCA228FA166EA06B9295ED /* NSString+ZQHash.h */,
+				BF1762773820CC60AF44675C4A698DEC /* NSString+ZQHash.m */,
+				914E77B0567D40FE8B8C925A3F7AAD1A /* NSString+ZQMIMEType.h */,
+				ADD14B45EE37331BE7834B53DD7D8000 /* NSString+ZQMIMEType.m */,
+				744F861EF72B61E0D4ABE400B3F1A131 /* NSString+ZQSubstring.h */,
+				992F5E9EACED3C52DAEC0144CEFC4E0D /* NSString+ZQSubstring.m */,
+				17C3BD4BDA00F7E225AD35DBFD5EFD05 /* RSACryptor.h */,
+				4D14FBF9E16ECBADAE48ABC9F7633D37 /* RSACryptor.m */,
+				DBE9084B27DEDD067DE65CC04B857165 /* Singleton.h */,
+				3FA5146F26E36C975B0FFE81DCA9CEB4 /* UIBarButtonItem+ZQItem.h */,
+				D4005FD768687B70CC7DA1D5256752F0 /* UIBarButtonItem+ZQItem.m */,
+				4944367C92AC0158A8A3746DB04BFE2F /* UIButton+ZQBlock.h */,
+				312619E07B786E205C7B37B1BCD646CD /* UIButton+ZQBlock.m */,
+				6C8ADE67BC27ADE853026283ACAF5C6B /* UIColor+ZQHex.h */,
+				8ACC76EB0E98DEE3A9489E580F59DFC2 /* UIColor+ZQHex.m */,
+				EF5ADED28B7ADFAD0C3E1531F4594A04 /* UIColor+ZQUtil.h */,
+				8A4A277315EB84E217CDB8D3688BC26D /* UIColor+ZQUtil.m */,
+				425B8E1E71986DD7470B94AF4DDBF10F /* UIDevice--Hardware.h */,
+				E48F12CBD1B3F654457216C8DDE95E19 /* UIDevice--Hardware.m */,
+				3EB92292EE32D982C3522EEFD6A9FBB2 /* UIImage+ZQAntialias.h */,
+				7A5BB58E3469FD0F60536F94D1882F25 /* UIImage+ZQAntialias.m */,
+				36166286A7B66A054F5BBE55B48F39C4 /* UIImage+ZQOriginal.h */,
+				5BAE8891E7164607D31AC40F3CFFAC46 /* UIImage+ZQOriginal.m */,
+				B83A3DF736F28D78963F99D2A86F05DD /* UIImage+ZQStretchable.h */,
+				6F9CD2D7D64741EB7D25362F921EF517 /* UIImage+ZQStretchable.m */,
+				AA618DF84677CD21938A6489E76F65F3 /* UIImageView+ZQUtil.h */,
+				F6A4BBFD1B7EB4ABE19847E453EF2820 /* UIImageView+ZQUtil.m */,
+				7F41F8FA6F0BE87F1CDB0DBC5E8266D1 /* UIRelatedHeader.h */,
+				1B6C59962AE6BD2E088661247018D78D /* UIScrollView+ZQContent.h */,
+				B72CE7CCF01A39711674C0C47444ECEB /* UIScrollView+ZQContent.m */,
+				B155C0BF66301683033EE1FFF20D0CD9 /* UITableViewCell+ZQCell.h */,
+				C79B490D1DA15088F3DE68068BA24081 /* UITableViewCell+ZQCell.m */,
+				040F1EB02380A8491CC2441723BD6BF9 /* UITextField+ZQPlaceholderColor.h */,
+				86652F74748DA2B7497E35BC0B164C08 /* UITextField+ZQPlaceholderColor.m */,
+				5BDF786345DBA071DCECF4DD4004E181 /* UIView+ZQFrame.h */,
+				EFD69F9244CDAECA9529DF415BA5A2D4 /* UIView+ZQFrame.m */,
+				4E8F4E18EF6847318E1432B41A127F3E /* UIView+ZQView.h */,
+				D5268B0875AA232BFFD2CFCCBE376635 /* UIView+ZQView.m */,
+				06293F71F4BD242D3FB6AEBABF2C1F70 /* UIView+ZQViewController.h */,
+				FB95C4BA9AD92E5EDBCD74E3661F314F /* UIView+ZQViewController.m */,
+				19E874341969DE6502A9DF62E2534DAA /* UIViewController+ZQViewController.h */,
+				64881D55A2F3DCB6342907E6D35CD90A /* UIViewController+ZQViewController.m */,
+				5F0E0142DC28D5E979578E895E76D561 /* ZQGuideTool.h */,
+				A735B82637E50FBB55DE283049CC4FFC /* ZQGuideTool.m */,
+				27D65577BF7662EAF2706D9413677E3E /* ZQLocalization.h */,
+				A66A90975295A089AC61ADEFB476C3B8 /* ZQLocalization.m */,
+				CD3707F3E378C4DB0CA8E786334EA261 /* ZQNewFeatureVC.h */,
+				23107B0009A3651B9CC3B89B0F53FBE9 /* ZQNewFeatureVC.m */,
+				38D8BE562EA4A2720058387A9F92F240 /* ZQSaveTool.h */,
+				D9C106FA0BE9D13DDA635C86E64183F1 /* ZQSaveTool.m */,
+				1695B09069C819DC224EB437FEB6FBC3 /* Support Files */,
+			);
+			name = ZQBaseLib;
+			path = ZQBaseLib;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				80E98FC78D41CEAD10DEF4A2D363E89E /* Products */,
+				BDA0A61D80EC4640C5A8033AF159868D /* Pods */,
+				D491B03C537D352B509D65DBF7398404 /* Products */,
 				937BF23AD407FBA3C857807485ADCC6C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		80E98FC78D41CEAD10DEF4A2D363E89E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				53F1653DADB77752DF6E95CB2C18BC72 /* libPods-ZQBaseLib_Example.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		937BF23AD407FBA3C857807485ADCC6C /* Targets Support Files */ = {
@@ -70,12 +344,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BDA0A61D80EC4640C5A8033AF159868D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E6D527215E433D7616EE048F2F8B862 /* ZQBaseLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D491B03C537D352B509D65DBF7398404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6CD4EDF88269E44CC800DBEC25A8C0 /* libPods-ZQBaseLib_Example.a */,
+				680925D429C07E1F591ACE2B66F176B4 /* libZQBaseLib.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E7F5585D9C16D9C2AF6E4966741BAE58 /* Pods-ZQBaseLib_Example */ = {
@@ -95,21 +386,91 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C1B83091A32C0D13C1B3C4DFABAAB275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E285DFA8DA8E53303E437BD80864550 /* EncryptionTools.h in Headers */,
+				23E1662A09FB4072DB74F4F00B8BEF26 /* EnumHeader.h in Headers */,
+				30F38C27ECFF7BEFC5E0F718F23228EF /* EnvironmentHeader.h in Headers */,
+				E6F77EA64DE31C09FA16288CA51E6338 /* Foundation+ZQLog.h in Headers */,
+				0C033CAB7C44EB2F1088C179C0ADF8DB /* FZQNavController.h in Headers */,
+				74468995EEC414AB1756723554CA7237 /* FZQNewFeature.h in Headers */,
+				FDFE553E695611BDD000C5C93DD758F5 /* FZQOwl.h in Headers */,
+				0658240A24FA44D920B4E0F8155BEDE5 /* FZQTabBar.h in Headers */,
+				2B518E8BBE8CB0BCC1973D6B8357B9AB /* FZQTabBarController.h in Headers */,
+				120487DC2FA066BC7DB889710A6A1A82 /* GlobeConst.h in Headers */,
+				81D1C15DFC332DE60876B2847CF7B77C /* NetworkHeader.h in Headers */,
+				E4784BEF16AA9FCF06C434A213CE58B2 /* NotificationHeader.h in Headers */,
+				9ADBF581869F3D4AD3CC47227A30A850 /* NSDictionary+ZQPropertyList.h in Headers */,
+				0D077B56CBDE1632116E485DBA761982 /* NSMutableURLRequest+ZQUpload.h in Headers */,
+				CAE838A538DC75E5465760B6F31155C8 /* NSObject+ZQInvocation.h in Headers */,
+				F2B6634A3CB66C8441C1A06EF1A42CD7 /* NSString+ZQFileSize.h in Headers */,
+				94CF819F047E07EAEBDF95F6982E8F35 /* NSString+ZQHash.h in Headers */,
+				8E4D1AE59EAD887FD0F39D6D473F494E /* NSString+ZQMIMEType.h in Headers */,
+				65A4B4A5C8419D6777FE7A4993182D79 /* NSString+ZQSubstring.h in Headers */,
+				695216AC39A4634AA8E2A0CF9032802C /* RSACryptor.h in Headers */,
+				7C20977BA027B6E11FC633914893B0A9 /* Singleton.h in Headers */,
+				840E62067B51A1FC283BE541A3EA00DE /* UIBarButtonItem+ZQItem.h in Headers */,
+				EF51DFB88365380D6C25770854F15902 /* UIButton+ZQBlock.h in Headers */,
+				DAC386755C947ED746DEBFB2612B3982 /* UIColor+ZQHex.h in Headers */,
+				454AA50CB4DFE87259D103333FD63C4D /* UIColor+ZQUtil.h in Headers */,
+				A9BD9F979145E358D85D3F40C536BB2B /* UIDevice--Hardware.h in Headers */,
+				FD6587C941B4D8327480AEE0A66FBE53 /* UIImage+ZQAntialias.h in Headers */,
+				7567CEACE8C372E58D77BAF73EB549D4 /* UIImage+ZQOriginal.h in Headers */,
+				E759D43CA662075EF8F16888C6C5D6CB /* UIImage+ZQStretchable.h in Headers */,
+				0068FD04D13E8FE8A731AB1A6857764B /* UIImageView+ZQUtil.h in Headers */,
+				9C1CE7E22CA5911AACA481ED8B307807 /* UIRelatedHeader.h in Headers */,
+				D89C7EAB7DADE173EAA3DF17D700E3F8 /* UIScrollView+ZQContent.h in Headers */,
+				A9DD8FD27C1E3123A29DCC5FFF3CF091 /* UITableViewCell+ZQCell.h in Headers */,
+				A62F255FC48CBC38052F5437B04F7A40 /* UITextField+ZQPlaceholderColor.h in Headers */,
+				48030E4222032BFE998535AD86D60156 /* UIView+ZQFrame.h in Headers */,
+				AC668B80887955730E6A55790E9D683C /* UIView+ZQView.h in Headers */,
+				A82301150B96913DA44F7A50D465A6CD /* UIView+ZQViewController.h in Headers */,
+				D934D1FD5DE5FDBC2127E3A003738F34 /* UIViewController+ZQViewController.h in Headers */,
+				1C039C0D81DE80D91EFD2C889CCEB4A6 /* ZQGuideTool.h in Headers */,
+				8DAC88C1179DCE93F2B2498E4155E5BF /* ZQLocalization.h in Headers */,
+				44EDE15AA78DF5C1DB55A3CE93952FE7 /* ZQNewFeatureVC.h in Headers */,
+				209E076A0D2C35BD316B4B45F2C63929 /* ZQSaveTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		17CB8B06743465088A852597AB7AA2FD /* Pods-ZQBaseLib_Example */ = {
+		1DD35928C792F0A3900A2FBA5F5CA95E /* ZQBaseLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA8A028D1D707B2E95871086840F54FD /* Build configuration list for PBXNativeTarget "Pods-ZQBaseLib_Example" */;
+			buildConfigurationList = 8F023D81C776EB4642D5901C4C4DFDDD /* Build configuration list for PBXNativeTarget "ZQBaseLib" */;
 			buildPhases = (
-				2654613DC72E63651F0D0451ACB7FE80 /* Sources */,
-				CAD131C4E25B0C5B57FE399A726AC927 /* Frameworks */,
+				981CE6B208F6CA4EC6ABFED91AC6FAE0 /* Sources */,
+				C04AAC700BD0E1B36356ED65D23340C4 /* Frameworks */,
+				C1B83091A32C0D13C1B3C4DFABAAB275 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = ZQBaseLib;
+			productName = ZQBaseLib;
+			productReference = 680925D429C07E1F591ACE2B66F176B4 /* libZQBaseLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E6BE1E5C392FE0296A23E6AB9D3423CC /* Pods-ZQBaseLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FDE076F30DD89624E2505FBA970FD2 /* Build configuration list for PBXNativeTarget "Pods-ZQBaseLib_Example" */;
+			buildPhases = (
+				BDBB559B334522827F3025F66260B7E1 /* Sources */,
+				E10D29F09BC3DA8D8622BED0BE9D6970 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6215A0A090A967B947A365A8ED1C91E7 /* PBXTargetDependency */,
+			);
 			name = "Pods-ZQBaseLib_Example";
 			productName = "Pods-ZQBaseLib_Example";
-			productReference = 53F1653DADB77752DF6E95CB2C18BC72 /* libPods-ZQBaseLib_Example.a */;
+			productReference = 4D6CD4EDF88269E44CC800DBEC25A8C0 /* libPods-ZQBaseLib_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -118,8 +479,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -129,164 +490,283 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 80E98FC78D41CEAD10DEF4A2D363E89E /* Products */;
+			productRefGroup = D491B03C537D352B509D65DBF7398404 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17CB8B06743465088A852597AB7AA2FD /* Pods-ZQBaseLib_Example */,
+				E6BE1E5C392FE0296A23E6AB9D3423CC /* Pods-ZQBaseLib_Example */,
+				1DD35928C792F0A3900A2FBA5F5CA95E /* ZQBaseLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2654613DC72E63651F0D0451ACB7FE80 /* Sources */ = {
+		981CE6B208F6CA4EC6ABFED91AC6FAE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D542B1614C37621DF9FD796558811C57 /* Pods-ZQBaseLib_Example-dummy.m in Sources */,
+				A38FA924012652757A4037F808D0E3F7 /* EncryptionTools.m in Sources */,
+				FD1EC0FD2BD37741969F076BDAB4BEA6 /* Foundation+ZQLog.m in Sources */,
+				803DE522ACD5A5D8FCEFD61F2DF6A082 /* FZQNavController.m in Sources */,
+				AB72D42A4BC4930083E5FA83C470AD4C /* FZQNewFeature.m in Sources */,
+				2DC0D9DD3A17EF1528F41DDB2F11AB62 /* FZQOwl.m in Sources */,
+				F4E98754C445731D2AB193EC28B31867 /* FZQOwl.xib in Sources */,
+				57D5FC5B2418549A90F49846C0232AED /* FZQTabBar.m in Sources */,
+				275AAF56C8F0EDBBC693ACA8390EA4E2 /* FZQTabBarController.m in Sources */,
+				D6EC0779DFB67617795AEDAB79A39DC8 /* GlobeConst.m in Sources */,
+				016C05756AAE5333C8CAF61B394D6D8F /* NSDictionary+ZQPropertyList.m in Sources */,
+				F88041D2E7D3D6F34290AF290E05C2B5 /* NSMutableURLRequest+ZQUpload.m in Sources */,
+				4160039998C93010721946EBA9A825B8 /* NSObject+ZQInvocation.m in Sources */,
+				CA372BF28B76139721186DE787FDD5A0 /* NSString+ZQFileSize.m in Sources */,
+				6B45E7C199C8CDE44C7DC8E2CFC382D2 /* NSString+ZQHash.m in Sources */,
+				D89476938DEF578986296798CCA166AE /* NSString+ZQMIMEType.m in Sources */,
+				4E5C6E737B59598A474AC4117785BFAE /* NSString+ZQSubstring.m in Sources */,
+				55D7F0047C7AB52297147EA05BCF6047 /* RSACryptor.m in Sources */,
+				90D158EDAEE81973620DA7DA72132C1A /* UIBarButtonItem+ZQItem.m in Sources */,
+				AD257F841AA18C13C9B42EB95E33E007 /* UIButton+ZQBlock.m in Sources */,
+				F46BD9BD7987593CB569719386D2DF94 /* UIColor+ZQHex.m in Sources */,
+				EC58CB3F23B7F15557C4947B507845C2 /* UIColor+ZQUtil.m in Sources */,
+				827CB6B5036366D5CE978763FA7F9AC2 /* UIDevice--Hardware.m in Sources */,
+				D62AB8AC490751A394EDF5C78DD8AB02 /* UIImage+ZQAntialias.m in Sources */,
+				CE859B3DF7FC2A521BB7192186247B63 /* UIImage+ZQOriginal.m in Sources */,
+				169AF2E42B3E4EF243F8B3251054195A /* UIImage+ZQStretchable.m in Sources */,
+				73852E08758D3A7D5677F1843697F11B /* UIImageView+ZQUtil.m in Sources */,
+				A042BA79FD5F9615F1F78E631C006FA9 /* UIScrollView+ZQContent.m in Sources */,
+				C9F2776DB34751E2D0D3073918A0BB6B /* UITableViewCell+ZQCell.m in Sources */,
+				5F5312C26B5AD787E7A32F3BF2CE1F7A /* UITextField+ZQPlaceholderColor.m in Sources */,
+				56228B71B364F9374CE5FACA2482FA51 /* UIView+ZQFrame.m in Sources */,
+				26FCBCC9256B9ED92345C49A4985B662 /* UIView+ZQView.m in Sources */,
+				CE79F888AAE8589F086ECD9FFD883CC9 /* UIView+ZQViewController.m in Sources */,
+				5BC920911DF6F4969003E2DF6C07CAF9 /* UIViewController+ZQViewController.m in Sources */,
+				CB44FE9715836350008A91D6EABE39FC /* ZQBaseLib-dummy.m in Sources */,
+				EDCB4D1344F61BF02E4AF2BBCCBCECB0 /* ZQGuideTool.m in Sources */,
+				53C7CEC66380DEA3B65DF208FF4B5A2D /* ZQLocalization.m in Sources */,
+				B3AC764B686EAD7C9173F322C9D4B1BB /* ZQNewFeatureVC.m in Sources */,
+				4374DEF8C045AB590D318D51CF485BF0 /* ZQSaveTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBB559B334522827F3025F66260B7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC2ECCB1A36A4135893643B173F80A7 /* Pods-ZQBaseLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6215A0A090A967B947A365A8ED1C91E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZQBaseLib;
+			target = 1DD35928C792F0A3900A2FBA5F5CA95E /* ZQBaseLib */;
+			targetProxy = 70AD782AC21FBFC1ED5F5ADB538B2BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		201234B3F39AB71AED4CC97FF3A2709D /* Release */ = {
+		20BE822394ACEE04D754779CF93EB0D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 962D8055EDC4299C97828F86D2B03E73 /* Pods-ZQBaseLib_Example.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+		274A7AFC405C47484F67595977F0563C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D7DFA657A90CBD6E89ABDC143DDBD3 /* ZQBaseLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQBaseLib/ZQBaseLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DA72BBC3A96094974C636CDD55CFA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9154C67DB5F1FB0F2F91BA822BBC982 /* Pods-ZQBaseLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991D2ACF36318340024E3F7ACF7FB825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D377D6851096CD88101F3057B6548AAC /* Debug */ = {
+		B7460A4524B57F5A31631C6CBD0536A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9154C67DB5F1FB0F2F91BA822BBC982 /* Pods-ZQBaseLib_Example.debug.xcconfig */;
+			baseConfigurationReference = B0D7DFA657A90CBD6E89ABDC143DDBD3 /* ZQBaseLib.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZQBaseLib/ZQBaseLib-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -294,17 +774,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C104F7F091290C3D1E248192F07FE689 /* Debug */,
-				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+				991D2ACF36318340024E3F7ACF7FB825 /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA8A028D1D707B2E95871086840F54FD /* Build configuration list for PBXNativeTarget "Pods-ZQBaseLib_Example" */ = {
+		65FDE076F30DD89624E2505FBA970FD2 /* Build configuration list for PBXNativeTarget "Pods-ZQBaseLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D377D6851096CD88101F3057B6548AAC /* Debug */,
-				201234B3F39AB71AED4CC97FF3A2709D /* Release */,
+				5DA72BBC3A96094974C636CDD55CFA4D /* Debug */,
+				20BE822394ACEE04D754779CF93EB0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F023D81C776EB4642D5901C4C4DFDDD /* Build configuration list for PBXNativeTarget "ZQBaseLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7460A4524B57F5A31631C6CBD0536A9 /* Debug */,
+				274A7AFC405C47484F67595977F0563C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
